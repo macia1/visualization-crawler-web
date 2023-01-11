@@ -1,7 +1,10 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/home">Home</router-link> |
+    <router-link to="/about">About</router-link>|
+    <router-link to="/">CrawlerTemplate</router-link>|
+    <router-link to="/crawlerNodeView">CrawlerNodeView</router-link>|
+    <router-link to="/listView">ListNode</router-link>
   </nav>
   <router-view/>
 </template>
